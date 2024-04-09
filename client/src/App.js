@@ -1,9 +1,16 @@
-import React from "react"
+import React from "react";
+import Home from "./components/Home";
+import SplitSection from "./components/SplitSection";
+import Image2 from "./components/views/Image2";
+import Footer from "./components/Footer";
 
-function App() {
+const App = ()=> {
   return (
     <div className="App">
-      <h1 class="text-3xl font-bold">Netflix clone</h1>
+      
+      <Home />
+      <SplitSection/>
+      <Footer/>
     </div>
   );
 }
